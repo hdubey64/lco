@@ -17,14 +17,15 @@ function sayName() {
    var name = "Mr.abvcd";
    console.log(name);
 }
+sayName();
 
 console.log(name);
 
-var num2 = 27;
-var num3 = 50;
+// var num2 = 27;
+// var num3 = 50;
 
-if (num2 % 2 == 0) {
-   console.log("Even number");
-} else {
-   console.log("Odd Number");
-}
+// if (num2 % 2 == 0) {
+//    console.log("Even number");
+// } else {
+//    console.log("Odd Number");
+// }
