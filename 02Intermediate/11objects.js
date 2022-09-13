@@ -33,5 +33,16 @@ console.table(user);
 /*
 TODO: 
         Insrt Properties:- name, modelNumber, yearReleas, price put thease properties
-        in var iPhoneNew Model Click A Photo And share it to Instagram
+        in var iPhoneNewModel Click A Photo And share it to Instagram
 */
+
+var iPhoneNewModel = {
+   modelName: "iPhone 14 Pro Max",
+   price: "₹ 1,39,900.00/-",
+   rom: "128 GB",
+   display: "17.02 cm (6.7 inch) Super Retina XDR",
+   camera: "48MP + 12MP + 12MP + 12MP | 12MP Front",
+   Processor: "A16 Bionic Chip, 6 Core",
+};
+
+console.table(iPhoneNewModel);
