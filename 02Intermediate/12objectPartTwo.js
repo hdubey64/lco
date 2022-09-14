@@ -17,7 +17,7 @@ var user = {
             this.role
          }, login count is ${this.logInCount}, loggedin by ${
             this.facebookSigned ? "Facebook" : "Geust"
-         } and his course list is`
+         } and his course list is ${this.courseList.length}, course name is:--`
       );
       console.table(this.courseList);
    },
