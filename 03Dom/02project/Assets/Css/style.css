@@ -1,5 +1,7 @@
 body {
    background: rgb(66, 66, 66);
+   text-align: center;
+   justify-content: space-between;
 }
 .color-hover {
    display: flex;
@@ -11,7 +13,7 @@ body {
 .color {
    width: 20%;
    margin: 3px;
-   height: 15vh;
+   height: 10vh;
    width: 25vh;
 }
 .red {
@@ -34,4 +36,13 @@ body {
 .pink {
    color: pink;
    background: pink;
+}
+
+.center {
+   height: 30vh;
+   width: 30vh;
+   border-radius: 50%;
+   display: inline-block;
+   margin-top: 100px;
+   padding: 50px;
 }
