@@ -1,0 +1,37 @@
+body {
+   background: rgb(66, 66, 66);
+}
+.color-hover {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin-top: 70px;
+}
+.color {
+   width: 20%;
+   margin: 2px;
+   height: 5vh;
+   width: 25vh;
+}
+.red {
+   background: red;
+   color: red;
+}
+.cyan {
+   color: cyan;
+   background: cyan;
+}
+.violet {
+   color: violet;
+   background: violet;
+}
+
+.orange {
+   color: orange;
+   background: orange;
+}
+.pink {
+   color: pink;
+   background: pink;
+}
