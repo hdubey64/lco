@@ -12,3 +12,14 @@ body {
 .description {
    transition: 0.9s ease-in-out;
 }
+.counter {
+   color: #44d62c;
+   font-weight: 700;
+   font-size: 6rem;
+}
+
+.followers {
+   color: #b71dde;
+   font-weight: 700;
+   font-size: 5rem;
+}
