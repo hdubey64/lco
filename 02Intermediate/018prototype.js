@@ -11,7 +11,10 @@ User.prototype.getFirstName = function () {
 
 var Vishal = new User("Vishal", 2);
 Vishal.getCourseCount();
-Vishal.getFirstName();
+if (Vishal.hasOwnProperty("firstName")) {
+   Vishal.getFirstName();
+}
+// Vishal.getFirstName();
 
 var Shashank = new User("Shashank", 1);
 Shashank.getCourseCount();
