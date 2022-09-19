@@ -8,7 +8,7 @@ body {
    flex-direction: row;
    align-items: center;
    justify-content: center;
-   margin-top: 70px;
+   margin-top: 40px;
 }
 .color {
    width: 20%;
@@ -39,10 +39,10 @@ body {
 }
 
 .center {
-   height: 30vh;
-   width: 30vh;
-   border-radius: 50%;
+   height: 65vh;
+   width: 65vh;
+   border-radius: 100%;
    display: inline-block;
-   margin-top: 100px;
-   padding: 50px;
+   margin-top: 40px;
+   text-align: center;
 }
