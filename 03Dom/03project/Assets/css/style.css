@@ -1,10 +1,62 @@
 body {
    background-color: rgb(66, 66, 66);
+   background: linear-gradient(to bottom, #253f65, #e1558c);
    display: flex;
    justify-content: center;
    align-items: center;
    min-height: 100vh;
+   font-family: "Varela Round", sans-serif;
+}
+.cantent {
+   background: linear-gradient(to right, #253f65, #e1558c);
+}
+/* h1 span {
+   border: 2px solid black;
+} */
+.logo {
+   border: 5px solid red;
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+   height: 45px;
+   width: 45px;
+   border-radius: 50%;
+   background: linear-gradient(to left, #253f65, #e1558c);
+   box-shadow: 0 0 15px rgb(0 0 0 / 50%);
+   font-size: 4rem;
+   color: #ffffff;
+   border: none;
+   position: relative;
+   top: 3.5px;
+   z-index: 20;
+}
+h1 {
+   color: white;
+}
+h1 p {
+   font-size: 1.2rem;
+   color: white;
+
+   margin-top: 5px;
 }
 li span {
    float: right;
+}
+.abcd {
+   display: flex;
+}
+
+.btnSmall {
+   position: relative;
+   padding: 12px 20px;
+   margin-top: 20px;
+   background: linear-gradient(to left, #253f65, #e1558c);
+   /* max-width: 170px; */
+   color: #ffffff;
+   text-decoration: none;
+   border: none;
+   border-radius: 200px;
+   box-shadow: 0 0 20px rgb(0 0 0 / 50%);
+   text-align: center;
+   z-index: 1;
 }
