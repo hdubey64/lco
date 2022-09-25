@@ -42,6 +42,7 @@ function generateLIST() {
    });
 }
 window.addEventListener("load", generateLIST);
+
 function sortAscendingCourse() {
    const button = document.querySelector(".sort-btn");
    button.addEventListener("click", () => {
