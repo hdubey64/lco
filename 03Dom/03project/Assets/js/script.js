@@ -44,10 +44,11 @@ function generateLIST() {
 window.addEventListener("load", generateLIST);
 
 function sortAscendingCourse() {
+   courses.sort((a, b) => a.price - b.price);
+      generateLIST();
    const button = document.querySelector(".sort-btn");
    button.addEventListener("click", () => {
-      courses.sort((a, b) => a.price - b.price);
-      generateLIST();
+      
    });
 }
 sortAscendingCourse();
